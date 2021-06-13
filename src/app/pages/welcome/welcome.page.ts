@@ -1,0 +1,23 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-welcome',
+  templateUrl: './welcome.page.html',
+  styleUrls: ['./welcome.page.scss'],
+})
+export class WelcomePage implements OnInit {
+
+  text = 'this is some text';
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+  onChangeText(){
+    this.text = 'Ok I like this';
+  }
+
+}
+
+

@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Welcome</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="light">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Welcome to MyBingeBreaker</ion-title>
+    </ion-toolbar>
+
+
+  </ion-header>
+
+  <div class="grid-even">
+    <div class="green text-yellow">
+      <h1>Welcome to MyBingeBreaker</h1>
+    </div>
+    <div class="cream text-navy">
+      <h2>I'm about to binge!</h2>
+    </div>
+    <div class="yellow">
+      <ion-button routerLink="/ground-yourself" shape="round" color="light">
+        Help!
+      </ion-button>
+    </div>
+  </div>
+</ion-content>

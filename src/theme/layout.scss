@@ -1,0 +1,54 @@
+#container {
+  text-align: center;
+  h1 {
+    height: 50%;
+    margin: 0;
+    padding: 10vh 1em;
+  }
+}
+
+//3 even rows // big little(1 col vs 2col) bigger
+//background and text-color variable
+
+h1, h2, p {
+  margin: 0;
+}
+
+.grid-even {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  height: 100%;
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h1 {
+    margin: 0;
+  }
+}
+
+.grid-focus {
+  display: grid;
+  grid-template-rows: 1fr auto 1fr;
+  height: 100%;
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh;
+  }
+  div:nth-child(2){
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    align-items: stretch;
+    > * {
+      padding: 5vh;
+    }
+  }
+}
+
+.column {
+  flex-direction: column;
+}
