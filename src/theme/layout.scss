@@ -22,6 +22,9 @@ h1, h2, p {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0px 2px 15px -5px $navy;
   }
   h1 {
     margin: 0;
@@ -36,15 +39,17 @@ h1, h2, p {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5vh;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0px 2px 15px -5px $navy;
   }
   div:nth-child(2){
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     padding: 0;
     align-items: stretch;
     > * {
       padding: 5vh;
+      flex: 1;
     }
   }
 }

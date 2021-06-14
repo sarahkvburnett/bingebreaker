@@ -21,6 +21,12 @@ const routes: Routes = [
       }, {
         path: 'ground-yourself',
         loadChildren: () => import('../ground-yourself/ground-yourself.module').then(m => m.GroundYourselfPageModule)
+      }, {
+        path: 'deep-breaths',
+        loadChildren: () => import('../deep-breaths/deep-breaths.module').then(m => m.DeepBreathsPageModule)
+      }, {
+        path: 'gallery',
+        loadChildren: () => import('../gallery/gallery.module').then(m => m.GalleryPageModule)
       },
     ]
   }

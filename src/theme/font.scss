@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;1,700&family=Roboto&display=swap');
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-size: calc(18px + (28 - 16) * ((100vw - 300px) / (1600 - 300)));
+
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.comic {
+  font-family: 'Comic Neue', cursive;
+  font-weight: 700;
+}
+
+.text-sm {
+  font-size: 1rem;
+}
+
+.text-md {
+  font-size: 1.5rem;
+}
+
+.text-lg {
+  font-size: 2rem;
+}
+
+.text-xl {
+  font-size: 2.5rem;
+}
+
+.bold {
+  font-weight: bold;
+}

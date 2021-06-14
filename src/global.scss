@@ -15,7 +15,7 @@
 /* Basic CSS for apps built with Ionic */
 @import "~@ionic/angular/css/normalize.css";
 @import "~@ionic/angular/css/structure.css";
-@import "~@ionic/angular/css/typography.css";
+//@import "~@ionic/angular/css/typography.css";
 @import '~@ionic/angular/css/display.css';
 
 /* Optional CSS utils that can be commented out */
@@ -26,5 +26,7 @@
 @import "~@ionic/angular/css/flex-utils.css";
 
 /* App specific styling */
-@import "theme/layout";
+@import "theme/button";
 @import "theme/color";
+@import "theme/font";
+@import "theme/layout";

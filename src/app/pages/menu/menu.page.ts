@@ -15,6 +15,9 @@ export class MenuPage implements OnInit {
     }, {
     title: 'Ground Yourself',
       url: '/ground-yourself'
+    }, {
+    title: 'Deep Breaths',
+      url: '/deep-breaths'
     }
   ];
 
